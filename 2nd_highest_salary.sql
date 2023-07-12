@@ -1,0 +1,1 @@
+Select Max(Salary) From Employees WHERE Salary < (Select Max(Salary) from Employees)
