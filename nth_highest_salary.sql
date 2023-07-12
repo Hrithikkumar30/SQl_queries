@@ -1,0 +1,1 @@
+Select TOP 1 Salary from (Select Distinct TOP 5 Salary from Employees order by Salary Desc) Result order by Salary
